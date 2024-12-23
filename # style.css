@@ -1,0 +1,150 @@
+/* تنسيق عام للصفحة */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* رأس الصفحة */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* قائمة التنقل */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* الأقسام */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    background: #fff;
+    border-radius: 8px;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+/* زر التحكم */
+button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #fff;
+    background: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #555;
+}
+
+/* النصوص المخفية */
+#hiddenContent {
+    margin-top: 10px;
+    font-style: italic;
+    color: #555;
+}
+
+/* تذييل الصفحة */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+/* تنسيق الفقرات الملونة */
+.colored-paragraph {
+    font-size: 18px;
+    line-height: 1.8;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* لون الفقرة الحمراء */
+.red-paragraph {
+    background-color: #e74c3c;
+}
+
+/* لون الفقرة الخضراء */
+.green-paragraph {
+    background-color: #2ecc71;
+}
+
+/* لون الفقرة الزرقاء */
+.blue-paragraph {
+    background-color: #3498db;
+}
+/* تنسيق القسم الخاص بالفيديوهات */
+#videos {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* تنسيق العنوان */
+#videos h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* تنسيق الفيديو */
+.video-container {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+video {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+}
